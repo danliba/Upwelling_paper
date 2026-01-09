@@ -1,4 +1,27 @@
+# Binaries and logs
 *.class
+*.exe
+*.log
+
+# Notebooks with "(1)" suffix (common duplicate pattern)
+* (1).ipynb
+
+# Images and MATLAB
+*.png
+*.mat
+
+# Large scientific data formats
+*.nc
+*.nc4
+*.grib
+*.grb
+*.hdf
+*.h5
+*.zarr
+
+# Project-specific data
+Clorofila_mar_peruano*
+BUI.nc*.class
 *.exe
 *.log
 Clorofila_mar_peruano*
@@ -7,3 +30,9 @@ Clorofila_mar_peruano*
 *mat
 *.nc
 *BUI.nc
+*.nc4
+*.grib
+*.grb
+*.hdf
+*.h5
+*.zarr
